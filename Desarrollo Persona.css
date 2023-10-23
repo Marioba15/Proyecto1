@@ -1,0 +1,202 @@
+
+
+/* Estilos para los botones de redes sociales */
+.redes-sociales {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+
+.boton-social i {
+    font-size: 24px; /* Tamaño del icono */
+}
+
+/* Estilos personalizados para cada red social */
+.linkedin {
+    background-color: #0077b5;
+}
+
+.instagram {
+    background-color: #bc2a8d;
+}
+
+.boton-social:hover {
+    background-color: #0056b3;
+}
+
+
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #007bff, #f4f4f4); /* Franja de color en la parte superior */
+    background-size: 100% 20px; /* Altura de la franja de color en píxeles */
+    background-repeat: no-repeat;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type:circle;
+}
+
+
+.boton {
+    display:block;
+    align-items: center; /* Centra verticalmente el contenido del botón */
+    margin: 10px;
+    padding: 0.5em 1em; /* Tamaño de botón relativo */
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.2em; /* Tamaño de fuente relativo */
+}
+
+.icono {
+    font-size: 16px; /* Tamaño de la viñeta */
+    color: #007bff; /* Color de la viñeta */
+}
+/* Estilos para el formulario de contacto */
+.formulario-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.formulario-contacto h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.formulario-contacto form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contacto label {
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.formulario-contacto input, .formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-contacto button {
+    display: block;
+    margin-top: 10px;
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.formulario-contacto button:hover {
+    background-color: #0056b3;
+}
+/* Estilos para la sección de opiniones */
+.proyectos {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.proyectos h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.proyecto {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.proyecto p {
+    font-size: 16px;
+    color: #555;
+}
+/*aun no se como el usuario puede dejar sus comentarios enla propia web*/
+
+/* Estilos específicos para dispositivos pequeños (móviles) */
+@media screen and (max-width: 768px) {
+    .elemento-recortado {
+        width: 100%; 
+    }
+    body {
+        font-size: 14px;
+    }
+}
