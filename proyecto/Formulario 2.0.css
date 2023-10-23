@@ -1,0 +1,165 @@
+/* Estilo para deshabilitar el enfoque visual en todos los campos de entrada */
+input[type="text"]:focus {
+    outline: none; /* Quita el borde de enfoque */
+}
+#titulo {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(174, 182, 191);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 450;
+    padding: 10px;
+}
+
+#ua {
+    color: black;
+    font-weight: 600;
+}
+
+#x {
+    color: rgb(52, 152, 219);
+    font-weight: 600;
+}
+.pregunta-opcional {
+    color: #777; /* Cambia el color de la pregunta opcional */
+    font-style: italic; /* Puedes aplicar otros estilos aquí */
+}
+
+/* Estilos para el formulario */
+.formulario-contenido {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el botón de envío */
+#boton {
+    display: block;
+    margin: 10px;
+    padding: 0.5em 1em; /* Tamaño de botón relativo */
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1em; /* Tamaño de fuente relativo */
+}
+
+#send:hover {
+    background-color: #0056b3;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    /* background-image: url('https://st.adasistemas.com/PortalesWeb/ITI/WEBCOITIM/_Private/Imagenes_Galerias/NOTICIA_2988_2023_10_9_8_57323.jpg');
+    background-size: cover;*/
+}
+
+/* Estilos para etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para campos de entrada de texto */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para botones de radio y casillas de verificación */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para los elementos del formulario en una lista */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para los elementos en la misma fila */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para el contenedor del formulario */
+.form-container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.radio-group, .checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.radio-group input[type="radio"], .checkbox-group input[type="checkbox"] {
+    margin: 0 5px 0 0;
+}
+
+.radio-group label, .checkbox-group label {
+    margin: 0 10px 0 0;
+}
+
+
+body {
+    font-size: 16px;
+}
+
+/* Ocultar el contenedor de permisos por defecto */
+/*.permisos-container {
+    display: none;
+}
+
+/* Mostrar el contenedor de permisos cuando el radio "Sí" esté seleccionado */
+/*#conducir-si:checked + .permisos-container {
+    display: block;
+}
+
+/* Estilos específicos para dispositivos pequeños (móviles) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .formulario-contenido {
+        max-width: 80%; /* Reducir el ancho del formulario */
+        padding: 10px; /* Reducir el espacio alrededor del formulario */
+    }
+    #google_translate_element {
+        margin-top: 10px; /* Agregar espacio entre el traductor y el contenido */
+        margin-left: 25px;
+    }
+}
